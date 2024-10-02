@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(45, 45, 151);
+}
+#main-container{
+    border: 2px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.input-data{
+    background-color: black;
+    border: 2px solid green;
+}
+.date{
+    width: 200px;
+    padding: 10px;
+    margin: 7px;
+}
+.cal-btn{
+    width: 100px;
+    padding: 10px 4px;
+    margin: 10px;
+}
+.data{
+    border: 3px solid white;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+#output-container{
+    border: 3px solid yellow;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
